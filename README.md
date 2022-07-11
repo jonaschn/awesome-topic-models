@@ -251,10 +251,9 @@ There are huge differences in performance and scalability as well as the support
 - [LDA-SP](https://github.com/aritter/LDA-SP) - A Latent Dirichlet Allocation Method for Selectional Preferences [:page_facing_up:](https://www.aclweb.org/anthology/P10-1044.pdf)
 - [LDA+FFT](https://github.com/ai-se/LDA_FFT) - LDA and FFTs (Fast and Frugal Trees) for better comprehensibility [:page_facing_up:](https://arxiv.org/pdf/1804.10657.pdf)
 
-### Neural Topic Models
+### Embedding based Topic Models
 
-### Embedding based
-
+- [BERTopic](https://github.com/MaartenGr/BERTopic) - BERTopic supports guided, (semi-) supervised, and dynamic topic modeling and visualization [:page_facing_up:](https://arxiv.org/pdf/2203.05794.pdf)
 - [CTM](https://github.com/MilaNLProc/contextualized-topic-models) - CTMs combine contextualized embeddings (e.g., BERT) with topic models
 - [ETM](https://github.com/adjidieng/ETM) - Embedded Topic Model [:page_facing_up:](https://arxiv.org/pdf/1907.04907.pdf)
 - [D-ETM](https://github.com/adjidieng/DETM) - Dynamic Embedded Topic Model [:page_facing_up:](https://arxiv.org/pdf/1907.05545.pdf)
@@ -262,13 +261,12 @@ There are huge differences in performance and scalability as well as the support
 - [pytorch-ProdLDA](https://github.com/hyqneuron/pytorch-avitm) - PyTorch implementation of ProdLDA [:page_facing_up:](https://arxiv.org/pdf/1703.01488.pdf)
 - [CatE](https://github.com/yumeng5/CatE) -  Discriminative Topic Mining via Category-Name Guided Text Embedding [:page_facing_up:](https://arxiv.org/pdf/1908.07162.pdf)
 - [Top2Vec](https://github.com/ddangelov/Top2Vec) - Python implementation that learns jointly embedded topic, document and word vectors [:page_facing_up:](https://arxiv.org/pdf/2008.09470.pdf)
-- [lda2vec](https://github.com/cemoody/lda2vec) - Mixing dirichlet topic models and word embeddings to make lda2vec [:page_facing_up:](https://arxiv.org/pdf/1605.02019.pdf)
-- [lda2vec-pytorch](https://github.com/TropComplique/lda2vec-pytorch) - PyTorch implementation of lda2vec
+- [lda2vec](https://github.com/cemoody/lda2javec) - Mixing dirichlet topic models and word embeddings to make lda2vec [:page_facing_up:](https://arxiv.org/pdf/1605.02019.pdf)
+- [lda2vec-pytorch](https://github.com/TropjaComplique/lda2vec-pytorch) - PyTorch implementation of lda2vec
 - [G-LDA](https://github.com/rajarshd/Gaussian_LDA) - Java implementation of Gaussian LDA using word embeddings [:page_facing_up:](https://www.aclweb.org/anthology/P15-1077.pdf)
 - [MG-LDA](https://github.com/EliasKB/Multilingual-Gaussian-Latent-Dirichlet-Allocation-MGLDA) - Python implementation of (Multi-lingual) Gaussian LDA [:page_facing_up:](https://raw.githubusercontent.com/EliasKB/Multilingual-Gaussian-Latent-Dirichlet-Allocation-MGLDA/master/MGLDA.pdf)
 - [MetaLDA](https://github.com/ethanhezhao/MetaLDA) - Java implementation using Gibbs sampling that leverages document metadata and word embeddings [:page_facing_up:](https://arxiv.org/pdf/1709.06365.pdf)
 - [LFTM](https://github.com/datquocnguyen/LFTM) - Java implementation of latent feature topic models (improving LDA and DMM with word embeddings) [:page_facing_up:](https://www.aclweb.org/anthology/Q15-1022.pdf)
-
 - [CorEx](https://github.com/gregversteeg/bio_corex) - Recover latent factors with Correlation Explanation (CorEx) [:page_facing_up:](https://arxiv.org/pdf/1406.1222.pdf)
 - [Anchored CorEx](https://github.com/gregversteeg/corex_topic) - Hierarchical Topic Modeling with Minimal Domain Knowledge [:page_facing_up:](https://arxiv.org/pdf/1611.10277.pdf)
 - [Linear CorEx](https://github.com/gregversteeg/LinearCorex) - Latent Factor Models Based on Linear Total CorEx [:page_facing_up:](https://arxiv.org/pdf/1706.03353v3.pdf)
