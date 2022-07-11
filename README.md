@@ -45,6 +45,7 @@ Search on github for https://github.com/search?q=LDA%E2%88%97
 - [BigARTM](https://github.com/bigartm/bigartm) - Fast topic modeling platform ![GitHub Repo stars](https://img.shields.io/github/stars/bigartm/bigartm?style=social)
 - [TopicNet](https://github.com/machine-intelligence-laboratory/TopicNet) - A high-level Python interface for BigARTM library ![GitHub Repo stars](https://img.shields.io/github/stars/machine-intelligence-laboratory/TopicNet?style=social)
 - [R-lda](https://github.com/slycoder/R-lda) - R package for topic modelling (LDA, sLDA, corrLDA, etc.) ![GitHub Repo stars](https://img.shields.io/github/stars/slycoder/R-lda?style=social)
+- [RMallet](https://github.com/mimno/RMallet) -  R package to interface with the Java machine learning tool MALLET ![GitHub Repo stars](https://img.shields.io/github/stars/mimno/RMallet?style=social)
 - [topicmodels](https://github.com/cran/topicmodels) - R package with interface to C code for LDA and CTM ![GitHub Repo stars](https://img.shields.io/github/stars/cran/topicmodels?style=social)
 - [stm](https://github.com/bstewart/stm) - R package for the Structural Topic Model ![GitHub Repo stars](https://img.shields.io/github/stars/bstewart/stm?style=social)
 - [lda++](https://github.com/angeloskath/supervised-lda) - C++ library for LDA and (fast) supervised LDA (sLDA/fsLDA) using variational inference ![GitHub Repo stars](https://img.shields.io/github/stars/angeloskath/supervised-lda?style=social)
@@ -73,13 +74,17 @@ There are huge differences in performance and scalability as well as the support
 - [CVBLDA-TopicModel4J](https://github.com/soberqian/TopicModel4J/blob/master/src/main/java/com/topic/model/CVBLDA.java) - Java implementation using collapsed variational Bayesian (CVB) inference [:page_facing_up:](https://papers.nips.cc/paper/2006/file/532b7cbe070a3579f424988a040752f2-Paper.pdf)
 - [Mallet](https://github.com/mimno/Mallet/blob/master/src/cc/mallet/topics/ParallelTopicModel.java) - Parallelized Java implementation using Gibbs sampling [:page_facing_up:](https://www.jmlr.org/papers/volume10/newman09a/newman09a.pdf)[:page_facing_up:](https://dl.acm.org/doi/pdf/10.1145/1557019.1557121)
 - [gensim-wrapper-Mallet](https://github.com/mimno/Mallet/blob/master/src/cc/mallet/topics/ParallelTopicModel.java) - Python wrapper for Mallet's implementation [:page_facing_up:](https://www.jmlr.org/papers/volume10/newman09a/newman09a.pdf)[:page_facing_up:](https://dl.acm.org/doi/pdf/10.1145/1557019.1557121)
-- [PartiallyCollapsedLDA](https://github.com/lejon/PartiallyCollapsedLDA) - Various fast parallelized samplers for LDA, including Partially Collapsed LDA, Light LDA, Partially Collapsed Light LDA and a very efficient Polya-Urn LDA
+- [PartiallyCollapsedLDA](https://github.com/lejon/PartiallyCollapsedLDA) - Various fast parallelized samplers for LDA, including Partially Collapsed LDA, LightLDA, Partially Collapsed Light LDA and a very efficient Polya-Urn LDA
 - [Vowpal Wabbit](https://github.com/VowpalWabbit/vowpal_wabbit/wiki/Latent-Dirichlet-Allocation) - C++ implementaion using online variational Bayes inference [:page_facing_up:](https://proceedings.neurips.cc/paper/2010/file/71f6278d140af599e06ad9bf1ba03cb0-Paper.pdf)
 - [tomotopy](https://github.com/bab2min/tomotopy) - Python binding for C++ implementation using Gibbs sampling and different [term-weighting](https://www.aclweb.org/anthology/N10-1070.pdf) options [:page_facing_up:](https://www.jmlr.org/papers/volume10/newman09a/newman09a.pdf)
 - [topicmodel-lib](https://github.com/hncuong/topicmodel-lib) - Cython library for online/streaming LDA (Online VB, Online CVB0, Online CGS, Online OPE, Online FW, Streaming VB, Streaming OPE, Streaming FW, ML-OPE, ML-CGS, ML-FW)
+- [jsLDA](https://github.com/mimno/jsLDA) - JavaScript implementation of LDA topic modeling in the browser
 - [lda-nodejs](https://github.com/primaryobjects/lda) - Node.js implementation of LDA topic modeling
 - [lda-purescript](https://github.com/lettier/lda-topic-modeling) - PureScript, browser-based implementation of LDA topic modeling
 - [TopicModels.jl](https://github.com/slycoder/TopicModels.jl) - Julia implementation of LDA
+- [turicreate](https://github.com/apple/turicreate) - C++ [LDA](https://github.com/apple/turicreate/blob/master/userguide/text/README.md) and [aliasLDA](https://apple.github.io/turicreate/docs/api/generated/turicreate.topic_model.create.html) implementation with export to Apple's Core ML for use in iOS, macOS, watchOS, and tvOS apps
+- [MeTA](https://github.com/meta-toolkit/meta) - C++ implementation of (parallel) collapsed [Gibbs sampling, CVB0 and SCVB](https://meta-toolkit.org/topic-models-tutorial.html)
+- [Fugue](https://github.com/PuzaTech/Fugue) - Java implementation of collapsed Gibbs sampling with slice sampling for hyper-parameter optimization
 
 #### Hyperparameter optimization
 - [GA-LDA](https://github.com/GESAD-MSR/GA-LDA) - R scripts using Genetic Algorithms (GA) for hyper-paramenter optimization, based on Panichella [:page_facing_up:](https://doi.org/10.1016/j.infsof.2020.106411)
