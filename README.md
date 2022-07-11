@@ -310,6 +310,15 @@ There are huge differences in performance and scalability as well as the support
 - [topicApp](https://github.com/wesslen/topicApp) - A Simple Shiny App for Topic Modeling
 - [stminsights](https://github.com/cschwem2er/stminsights) - A Shiny Application for Inspecting Structural Topic Models
 
+## Dirichlet hyperparameter optimization techniques
+- [Slice sampling](https://people.cs.umass.edu/~cxl/cs691bm/lec08.html)
+- [Minka](https://tminka.github.io/papers/dirichlet/minka-dirichlet.pdf)
+    - [fastfit](https://github.com/tminka/fastfit) 
+    - [dirichlet](https://github.com/ericsuh/dirichlet) Python port of fastfit
+    - [lightspeed](https://github.com/tminka/lightspeed)
+    - [lecture-notes](https://people.cs.umass.edu/~cxl/cs691bm/lec09.html)
+- [Newton-Raphson Method](http://jonathan-huang.org/research/dirichlet/dirichlet.pdf)
+- [fixed-point iteration](https://people.cs.umass.edu/~wallach/theses/wallach_phd_thesis.pdf) - Wallach's PhD thesis, chapter 2.3
 ## Resources
 
 - [David Blei](http://www.cs.columbia.edu/~blei/topicmodeling.html) - David Blei's Homepage with introductory materials
