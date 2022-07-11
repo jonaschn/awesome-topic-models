@@ -6,7 +6,7 @@
 
 ## Contents
 
-- [Libraries](#libraries)
+- [Libraries & Toolkits](#libraries--toolkits)
 - [Models](#models)
 - [Techniques](#techniques)
 - [Research Implementations](#research-implementations)
@@ -14,22 +14,6 @@
 - [Resources](#resources)
 - [Related awesome lists](#related-awesome-lists)
 
-
-## TODOS
-
-check following libs for supported models
-tomoto
-Mallet
-[BIDMach](https://github.com/BIDData/BIDMach/tree/master/src/main/scala/BIDMach/models)
-BigARTM
-R-lda
-topicmodels
-stm
-
-
-Check out: https://github.com/iwangjian/Paper-Reading#topic-modeling
-
-Search on github for https://github.com/search?q=LDA%E2%88%97
 
 ## Libraries & Toolkits
 
