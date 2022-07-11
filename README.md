@@ -44,10 +44,12 @@ There are huge differences in performance and scalability as well as the support
 - [gensim](https://radimrehurek.com/gensim/models/lsimodel.html) - Python implementation using multi-pass [randomized SVD solver](https://arxiv.org/pdf/0909.4061.pdf) or a [one-pass merge algorithm](https://rdcu.be/cghAi)
 - [SVDlibc](https://github.com/lucasmaystre/svdlibc) - C implementation of SVD by Doug Rohde
 - [sparsesvd](https://github.com/RaRe-Technologies/sparsesvd) - Python wrapper for SVDlibc
+- [BIDMach](https://github.com/BIDData/BIDMach/blob/master/src/main/scala/BIDMach/models/SVD.scala) - Scala implementation of a scalable approximate SVD using subspace iteration
 
 ### Non-Negative Matrix Factorization (NMF or NNMF)
 - [scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.NMF.html) - Python implementation using a [coordinate descent](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.214.6398&rep=rep1&type=pdf) or a [multiplicative update](https://arxiv.org/pdf/1010.1763.pdf) solver
 - [gensim](https://radimrehurek.com/gensim/models/nmf.html) - Python implementation of [online NMF](https://arxiv.org/pdf/1604.02634.pdf)
+- [BIDMach](https://github.com/BIDData/BIDMach/blob/master/src/main/scala/BIDMach/models/NMF.scala) - CPU and GPU-accelerated Scala implementation with L2 loss
 
 ### Latent Dirichlet Allocation (LDA) [:page_facing_up:](https://www.jmlr.org/papers/volume3/blei03a/blei03a.pdf)
 - [scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.LatentDirichletAllocation.html) - Python implementation using online variational Bayes inference [:page_facing_up:](https://proceedings.neurips.cc/paper/2010/file/71f6278d140af599e06ad9bf1ba03cb0-Paper.pdf)
