@@ -275,6 +275,7 @@ There are huge differences in performance and scalability as well as the support
 ## Probabilistic Programming Languages (PPL) (a.k.a. Build your own Topic Model)
 - [Stan](https://github.com/stan-dev/stan) - Platform for statistical modeling and high-performance statistical computation, e.g., [LDA](https://mc-stan.org/docs/2_26/stan-users-guide/latent-dirichlet-allocation.html) [:page_facing_up:](https://files.eric.ed.gov/fulltext/ED590311.pdf)
 - [PyMC3](https://github.com/pymc-devs/pymc3) - Python package for Bayesian statistical modeling and probabilistic machine learning, e.g., [LDA](http://docs.pymc.io/notebooks/lda-advi-aevb.html) [:page_facing_up:](https://peerj.com/articles/cs-55.pdf)
+- [Turing.jl](https://github.com/TuringLang/Turing.jl) -  Julia library for general-purpose probabilistic programming [:page_facing_up:](http://proceedings.mlr.press/v84/ge18b/ge18b.pdf)
 - [TFP](https://github.com/tensorflow/probability) - Probabilistic reasoning and statistical analysis in TensorFlow, e.g., [LDA](https://github.com/tensorflow/probability/blob/master/tensorflow_probability/examples/latent_dirichlet_allocation_distributions.py) [:page_facing_up:](https://arxiv.org/pdf/2001.11819.pdf)
 - [edward2](https://github.com/google/edward2) - Simple PPL with core utilities in the NumPy and TensorFlow ecosystem [:page_facing_up:](https://arxiv.org/pdf/1811.02091.pdf)
 - [pyro](https://github.com/pyro-ppl/pyro) - PPL built on PyTorch, e.g., [prodLDA](http://pyro.ai/examples/prodlda.html) [:page_facing_up:](https://www.jmlr.org/papers/volume20/18-403/18-403.pdf)
@@ -306,12 +307,12 @@ There are huge differences in performance and scalability as well as the support
 - [Stanford Topic Modeling Toolbox](https://nlp.stanford.edu/software/tmt/tmt-0.4/) - Scala implementation of LDA, labeledLDA, PLDA, PLDP by Daniel Ramage and Evan Rosen
 - [Matlab Topic Modeling Toolbox](https://github.com/jonaschn/Matlab-Topic-Modeling-Toolbox) - Matlab implementations of LDA, ATM, HMM-LDA, LDA-COL (Collocation) models by Mark Steyvers and Tom Griffiths
 - [GibbsLDA++](http://gibbslda.sourceforge.net) - C++ implementation using Gibbs sampling [:page_facing_up:](https://dl.acm.org/doi/pdf/10.1145/1367497.1367510)
-[:fork:](https://github.com/mrquincle/gibbs-lda)
+[:fork_and_knife:](https://github.com/mrquincle/gibbs-lda)
 - [JGibbLDA](http://jgibblda.sourceforge.net) - Java implementation using Gibbs sampling
 - [Mr.LDA](https://github.com/lintool/Mr.LDA) - Scalable Topic Modeling using Variational Inference in MapReduce [:page_facing_up:](https://dl.acm.org/doi/10.1145/2187836.2187955)
 
 
-## Toy Implementations (hopefully easy to understand)
+## Learning Implementations (hopefully easy to understand)
 
 - [topic_models](https://github.com/laserwave/topic_models) - Python implementation of LSA, PLSA and LDA
 - [Topic-Model](https://github.com/Ward-nju/Topic-Model) - Python implementation of LDA, Labeled LDA, ATM, Temporal Author-Topic Model using Gibbs sampling
@@ -329,6 +330,8 @@ There are huge differences in performance and scalability as well as the support
 - [wordcloud](http://amueller.github.io/word_cloud/) - Python package for visualizing topics via word_cloud
 - [Mallet-GUI](https://github.com/senderle/topic-modeling-tool) - GUI for creating and analyzing topic models produced by MALLET
 - [TWiC](https://github.com/jarmoza/twic) - Topic Words in Context is a highly-interactive, browser-based visualization for MALLET topic models
+- [dfr-browser](https://github.com/agoldst/dfr-browser) -  Explore Mallet's topic models of texts in a web browser
+- [Termite](https://github.com/uwdata/termite-data-server) - Explore topic models using term-topic matrix, group-in-a-box visualization or scatter plot.
 - [Topics](https://github.com/DARIAH-DE/Topics) - Python library for topic modeling and visualization
 - [TopicsExplorer](https://github.com/DARIAH-DE/TopicsExplorer) - Explore your own text collection with a topic model – without prior knowledge [:page_facing_up:](https://dh2018.adho.org/a-graphical-user-interface-for-lda-topic-modeling)
 - [topicApp](https://github.com/wesslen/topicApp) - A Simple Shiny App for Topic Modeling
@@ -343,6 +346,7 @@ There are huge differences in performance and scalability as well as the support
     - [lecture-notes](https://people.cs.umass.edu/~cxl/cs691bm/lec09.html)
 - [Newton-Raphson Method](http://jonathan-huang.org/research/dirichlet/dirichlet.pdf)
 - [fixed-point iteration](https://people.cs.umass.edu/~wallach/theses/wallach_phd_thesis.pdf) - Wallach's PhD thesis, chapter 2.3
+
 ## Resources
 
 - [David Blei](http://www.cs.columbia.edu/~blei/topicmodeling.html) - David Blei's Homepage with introductory materials
