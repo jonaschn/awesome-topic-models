@@ -31,25 +31,25 @@ Check out: https://github.com/iwangjian/Paper-Reading#topic-modeling
 
 Search on github for https://github.com/search?q=LDA%E2%88%97
 
-## Libraries
+## Libraries & Toolkits
 
-- [tmtoolkit](https://github.com/WZBSocialScienceCenter/tmtoolkit) -  Python topic modeling toolkit with parallel processing power ![GitHub Repo stars](https://img.shields.io/github/stars/WZBSocialScienceCenter/tmtoolkit?style=social)
 - [gensim](https://github.com/RaRe-Technologies/gensim) - Python library for topic modelling ![GitHub Repo stars](https://img.shields.io/github/stars/RaRe-Technologies/gensim?style=social)
 - [scikit-learn](https://github.com/scikit-learn/scikit-learn) - Python library for machine learning ![GitHub Repo stars](https://img.shields.io/github/stars/scikit-learn/scikit-learn?style=social)
 - [tomotopy](https://github.com/bab2min/tomotopy) - Python extension for Gibbs sampling based *tomoto* which is written in C++ ![GitHub Repo stars](https://img.shields.io/github/stars/bab2min/tomotopy?style=social)
 - [tomoto](https://github.com/ankane/tomoto) - Ruby extension for Gibbs sampling based *tomoto* which is written in C++ ![GitHub Repo stars](https://img.shields.io/github/stars/ankane/tomoto?style=social)
-- [topicmodel-lib](https://github.com/hncuong/topicmodel-lib) - Cython library for state-of-the-art methods (online/streaming LDA) ![GitHub Repo stars](https://img.shields.io/github/stars/hncuong/topicmodel-lib?style=social)
-- [Mallet](https://github.com/mimno/Mallet) - Java-based package for topic modeling ![GitHub Repo stars](https://img.shields.io/github/stars/mimno/mallet?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/mimno/Mallet)
+- [OCTIS](https://github.com/MIND-Lab/OCTIS) - Python package to integrate, optimize and evaluate topic models ![GitHub Repo stars](https://img.shields.io/github/stars/MIND-Lab/OCTIS?style=social)
+- [tmtoolkit](https://github.com/WZBSocialScienceCenter/tmtoolkit) -  Python topic modeling toolkit with parallel processing power ![GitHub Repo stars](https://img.shields.io/github/stars/WZBSocialScienceCenter/tmtoolkit?style=social)
+- [Mallet](https://github.com/mimno/Mallet) - Java-based package for topic modeling ![GitHub Repo stars](https://img.shields.io/github/stars/mimno/mallet?style=social)
 - [TopicModel4J](https://github.com/soberqian/TopicModel4J) - Java-based package for topic modeling ![GitHub Repo stars](https://img.shields.io/github/stars/soberqian/TopicModel4J?style=social)
 - [BIDMach](https://github.com/BIDData/BIDMach) - CPU and GPU-accelerated machine learning library ![GitHub Repo stars](https://img.shields.io/github/stars/BIDData/BIDMach?style=social)
 - [BigARTM](https://github.com/bigartm/bigartm) - Fast topic modeling platform ![GitHub Repo stars](https://img.shields.io/github/stars/bigartm/bigartm?style=social)
 - [TopicNet](https://github.com/machine-intelligence-laboratory/TopicNet) - A high-level Python interface for BigARTM library ![GitHub Repo stars](https://img.shields.io/github/stars/machine-intelligence-laboratory/TopicNet?style=social)
-- [R-lda](https://github.com/slycoder/R-lda) - R package for topic modelling (LDA, sLDA, corrLDA, etc.) ![GitHub Repo stars](https://img.shields.io/github/stars/slycoder/R-lda?style=social)
-- [RMallet](https://github.com/mimno/RMallet) -  R package to interface with the Java machine learning tool MALLET ![GitHub Repo stars](https://img.shields.io/github/stars/mimno/RMallet?style=social)
-- [topicmodels](https://github.com/cran/topicmodels) - R package with interface to C code for LDA and CTM ![GitHub Repo stars](https://img.shields.io/github/stars/cran/topicmodels?style=social)
 - [stm](https://github.com/bstewart/stm) - R package for the Structural Topic Model ![GitHub Repo stars](https://img.shields.io/github/stars/bstewart/stm?style=social)
+- [RMallet](https://github.com/mimno/RMallet) -  R package to interface with the Java machine learning tool MALLET ![GitHub Repo stars](https://img.shields.io/github/stars/mimno/RMallet?style=social)
+- [R-lda](https://github.com/slycoder/R-lda) - R package for topic modelling (LDA, sLDA, corrLDA, etc.) ![GitHub Repo stars](https://img.shields.io/github/stars/slycoder/R-lda?style=social)
+- [topicmodels](https://github.com/cran/topicmodels) - R package with interface to C code for LDA and CTM ![GitHub Repo stars](https://img.shields.io/github/stars/cran/topicmodels?style=social)
 - [lda++](https://github.com/angeloskath/supervised-lda) - C++ library for LDA and (fast) supervised LDA (sLDA/fsLDA) using variational inference ![GitHub Repo stars](https://img.shields.io/github/stars/angeloskath/supervised-lda?style=social)
-- [OCTIS](https://github.com/MIND-Lab/OCTIS) - Python package to integrate, optimize and evaluate topic models
+
 
 ## Models
 
