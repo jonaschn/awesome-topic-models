@@ -85,8 +85,9 @@ There are huge differences in performance and scalability as well as the support
 
 #### CPU-based high performance implementations
 - [LDA\*](https://github.com/Angel-ML/angel/blob/master/docs/algo/lda_on_angel_en.md) - Tencent's hybrid sampler that uses different samplers for different types of documents in combination with an asymmetric parameter server [:page_facing_up:](http://www.vldb.org/pvldb/vol10/p1406-yu.pdf)
-- [FastLDA](https://github.com/Arnie0426/FastLDA) - C++ implementation of LDA https://dl.acm.org/doi/pdf/10.1145/1401890.1401960
+- [FastLDA](https://github.com/Arnie0426/FastLDA) - C++ implementation of LDA [:page_facing_up:](https://dl.acm.org/doi/pdf/10.1145/1401890.1401960)
 - [dmlc](https://github.com/dmlc/experimental-lda) - Single-and multi-threaded C++ implementations of [lightLDA](https://arxiv.org/pdf/1412.1576.pdf), [F+LDA](https://arxiv.org/pdf/1412.4986v1.pdf), [AliasLDA](https://dl.acm.org/doi/pdf/10.1145/2623330.2623756), forestLDA and many more
+- [SparseLDA](https://github.com/mimno/Mallet/blob/master/src/cc/mallet/topics/ParallelTopicModel.java) - Java algorithm and data structure for evaluating Gibbs sampling distributions used in Mallet [:page_facing_up:](https://dl.acm.org/doi/pdf/10.1145/1557019.1557121)
 - [warpLDA](https://github.com/thu-ml/warplda) - C++ cache efficient LDA implementation which samples each token in O(1) [:page_facing_up:](https://arxiv.org/pdf/1510.08628.pdf)
 - [lightLDA](https://github.com/microsoft/LightLDA) - C++ implementation using O(1) Metropolis-Hastings sampling [:page_facing_up:](https://arxiv.org/pdf/1412.1576.pdf)
 - [F+LDA](https://bigdata.oden.utexas.edu/software/nomad) - C++ implementation of F+LDA using an appropriately modified Fenwick tree [:page_facing_up:](https://arxiv.org/pdf/1412.4986v1.pdf)
@@ -102,20 +103,28 @@ There are huge differences in performance and scalability as well as the support
 
 ### Hierarchical Dirichlet Process (HDP) [:page_facing_up:](https://papers.nips.cc/paper/2004/file/fb4ab556bc42d6f0ee0f9e24ec4d1af0-Paper.pdf)
 - [gensim](https://radimrehurek.com/gensim/models/hdpmodel.html) - Python implementation using online variational inference [:page_facing_up:](http://proceedings.mlr.press/v15/wang11a/wang11a.pdf)
+- [tomotopy](https://github.com/bab2min/tomotopy) - Python extension for C++ implementation using Gibbs sampling [:page_facing_up:](https://www.jmlr.org/papers/volume10/newman09a/newman09a.pdf)
+- [Mallet](https://github.com/mimno/Mallet) - Java-based package for topic modeling using Gibbs sampling
 - [TopicModel4J](https://github.com/soberqian/TopicModel4J) - Java implementation using Gibbs sampling based on Chinese restaurant franchise metaphor
 - [hca](https://github.com/wbuntine/topic-models) - C implementation using Gibbs sampling with/without burstiness modelling 
-- [Mallet](https://github.com/mimno/Mallet/blob/master/src/cc/mallet/topics/HierarchicalLDA.java) - Java implementation using Gibbs sampling
 - [bnp](https://github.com/chyikwei/bnp) - Cython reimplementation based on *online-hdp* following scikit-learn's API.
-- [hlda](https://github.com/joewandy/hlda) - Python package based on *Mallet's* Gibbs sampler having a fixed depth on the nCRP tree
 - [Scalable HDP](http://www.vldb.org/pvldb/vol11/p826-chen.pdf) - interesting paper
+
+### Hierarchical LDA (hLDA) [:page_facing_up:](https://dl.acm.org/doi/10.5555/2981345.2981348)
+- [tomotopy](https://github.com/bab2min/tomotopy) - Python extension for C++ implementation using Gibbs sampling
+- [Mallet](https://github.com/mimno/Mallet/blob/master/src/cc/mallet/topics/HierarchicalLDA.java) - Java implementation using Gibbs sampling
+- [hlda](https://github.com/joewandy/hlda) - Python package based on *Mallet's* Gibbs sampler having a fixed depth on the nCRP tree
+- [hLDA](https://github.com/blei-lab/hlda) - C implementation of hierarchical LDA by David Blei
 
 
 ### Dynamic Topic Model (DTM) [:page_facing_up:](https://dl.acm.org/doi/pdf/10.1145/1143844.1143859)
+- [tomotopy](https://github.com/bab2min/tomotopy) - Python extension for C++ implementation using Gibbs sampling based on FastDTM
+- [FastDTM](https://github.com/Arnie0426/FastDTM) - Scalable C++ implementation using Gibbs sampling with Stochastic Gradient Langevin Dynamics (MCMC-based) [:page_facing_up:](https://arxiv.org/pdf/1602.06049.pdf)
 - [ldaseqmodel-gensim](https://radimrehurek.com/gensim_3.8.3/models/ldaseqmodel.html) - Python implementation using online variational inference [:page_facing_up:](https://proceedings.neurips.cc/paper/2010/file/71f6278d140af599e06ad9bf1ba03cb0-Paper.pdf)
 - [dtm-BigTopicModel](https://github.com/thu-ml/BigTopicModel) - C++ engine for running large-scale topic models
 - [tca](https://github.com/wbuntine/topic-models/blob/master/HCA/doc/tcaman.pdf) - C implementation using Gibbs sampling with/without burstiness modelling [:page_facing_up:](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.705.1649&rep=rep1&type=pdf)
 - [DETM](https://github.com/adjidieng/DETM) - Python implementation of the Dynamic Embedded Topic Model [:page_facing_up:](https://arxiv.org/pdf/1907.05545.pdf)
-- [FastDTM](https://github.com/Arnie0426/FastDTM) - Scalable C++ implementation using Gibbs sampling with Stochastic Gradient Langevin Dynamics (MCMC-based) [:page_facing_up:](https://arxiv.org/pdf/1602.06049.pdf)
+
 
 ### Author-topic Model (ATM) [:page_facing_up:](https://arxiv.org/pdf/1207.4169.pdf)
 - [gensim](https://radimrehurek.com/gensim/models/atmodel.html) - Python implementation with online training (constant in memory w.r.t. the number of documents)
@@ -124,18 +133,27 @@ There are huge differences in performance and scalability as well as the support
 - [Topic-Model](https://github.com/Ward-nju/Topic-Model) - Simple Python implementation using Gibbs sampling
 
 ### Labeled Latent Dirichlet Allocation (LLDA, Labeled-LDA, L-LDA) [:page_facing_up:](https://www.aclweb.org/anthology/D09-1026.pdf)
-- [STMT](https://nlp.stanford.edu/software/tmt/tmt-0.4/) - Scala implementation by Daniel Ramage
-- [topbox](https://github.com/jonaschn/topbox) - Python wrapper for labeled LDA implementation of *Stanford TMT*
+- [tomotopy](https://github.com/bab2min/tomotopy) - Python extension for C++ implementation using Gibbs sampling
+- [TopicModel4J](https://github.com/soberqian/TopicModel4J) - Java implementation
 - [Mallet](https://github.com/mimno/Mallet/blob/master/src/cc/mallet/topics/LabeledLDA.java) - Java implementation using Gibbs sampling [:page_facing_up:](http://www.mimno.org/articles/labelsandpatterns)
 - [gensims_mallet_wrapper](https://github.com/jonaschn/gensim/tree/labeled-lda) - Python wrapper for Mallet using gensim interface
+- [STMT](https://nlp.stanford.edu/software/tmt/tmt-0.4/) - Scala implementation by Daniel Ramage
+- [topbox](https://github.com/jonaschn/topbox) - Python wrapper for labeled LDA implementation of *Stanford TMT*
 - [Labeled-LDA-Python](https://github.com/JoeZJH/Labeled-LDA-Python) - Python implementation (easy to use, does not scale)
-- [TopicModel4J](https://github.com/soberqian/TopicModel4J) - Java implementation
 - [JGibbLabeledLDA](https://github.com/myleott/JGibbLabeledLDA) - Java implementation based on the popular [JGibbLDA](jgibblda.sourceforge.net) package
 
 
 ### Partially Labeled Dirichlet Allocation (PLDA) / Dirichlet Process (PLDP) [:page_facing_up:](https://www.microsoft.com/en-us/research/wp-content/uploads/2011/08/KDD2011-pldp-final.pdf)
-- [STMT](https://nlp.stanford.edu/software/tmt/tmt-0.4/) - Scala implementation of PLDA & PLDP by Daniel Ramage
+- [tomotopy](https://github.com/bab2min/tomotopy) - Python extension for C++ implementation using Gibbs sampling
 - [TopicModel4J](https://github.com/soberqian/TopicModel4J) - Java implementation using collapsed Gibbs sampling
+- [STMT](https://nlp.stanford.edu/software/tmt/tmt-0.4/) - Scala implementation of PLDA & PLDP by Daniel Ramage
+
+### Dirichlet Multinomial Regression (DMR) topic model [:page_facing_up:](https://dl.acm.org/doi/10.5555/3023476.3023525)
+- [tomotopy](https://github.com/bab2min/tomotopy) - Python extension for C++ implementation using Gibbs sampling
+- [Mallet](https://github.com/mimno/Mallet) - Java-based package for topic modeling 
+
+### Generalized Dirichlet Multinomial Regression (g-DMR) topic model [:page_facing_up:](https://dl.acm.org/doi/10.1007/s11192-020-03508-3)
+- [tomotopy](https://github.com/bab2min/tomotopy) - Python extension for C++ implementation using Gibbs sampling
 
 
 ### Link LDA
@@ -143,8 +161,10 @@ There are huge differences in performance and scalability as well as the support
 - [TopicModel4J](https://github.com/soberqian/TopicModel4J) - Java implementation using collapsed Gibbs sampling 
 
 ### Correlated Topic Model (CTM) a.k.a. logistic-normal topic models
+- [tomotopy](https://github.com/bab2min/tomotopy) - Python extension for C++ implementation using Gibbs sampling [:page_facing_up:](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.149.922)
 - [ctm-c](https://github.com/blei-lab/ctm-c) - Original C implementation of the correlated topic model by David Blei [:page_facing_up:](https://proceedings.nips.cc/paper/2005/file/9e82757e9a1c12cb710ad680db11f6f1-Paper.pdf)
 - [BigTopicModel](https://github.com/thu-ml/BigTopicModel) - C++ engine for running large-scale DTM [:page_facing_up:](https://papers.nips.cc/paper/2013/file/285f89b802bcb2651801455c86d78f2a-Paper.pdf)
+ - [stm](https://github.com/bstewart/stm) - R package for the Structural Topic Model (CTM in case of no covariates) [:page_facing_up:](https://github.com/bstewart/stm/blob/master/vignettes/stmVignette.pdf?raw=true)
 
 ### Relational Topic Model (RTM)
 - [BigTopicModel](https://github.com/thu-ml/BigTopicModel) - C++ engine for running large-scale topic models
@@ -180,7 +200,7 @@ There are huge differences in performance and scalability as well as the support
 #### Dirichlet Process Multinomial Mixture Model (DPMM)
 - [TopicModel4J](https://github.com/soberqian/TopicModel4J) - Java implementation using collapsed Gibbs sampling [:page_facing_up:](https://ieeexplore.ieee.org/document/7498276)
 
-#### Pseudo-document-based Topic Model (PTM)
+#### Pseudo-document-based Topic Model (PTM) [:page_facing_up:](https://dl.acm.org/doi/10.1145/2939672.2939880)
 - [tomotopy](https://github.com/bab2min/tomotopy) - Python extension for C++ implementation using Gibbs sampling
 - [TopicModel4J](https://github.com/soberqian/TopicModel4J) - Java implementation using collapsed Gibbs sampling
 
@@ -193,23 +213,27 @@ There are huge differences in performance and scalability as well as the support
 
 #### Others
 - [STTM](https://github.com/qiang2100/STTM) - Java implementation and evaluation of DMM, WNTM, PTM, ETM, GPU-DMM, GPU-DPMM, LF-DMM [:page_facing_up:](https://arxiv.org/pdf/1904.07695.pdf)
+- [SATM](https://github.com/WHUIR/SATM) - Java implementation of Self-Aggregation Topic Model [:page_facing_up:](https://dl.acm.org/doi/10.5555/2832415.2832564)
 - [shorttext](https://github.com/stephenhky/PyShortTextCategorization) -  Python implementation of various algorithms for Short Text Mining
 
 
-### Others
+### Miscellaneous topic models
+- [trLDA](https://github.com/lucastheis/trlda/) - Python implementation of streaming LDA based on trust-regions [:page_facing_up:](http://proceedings.mlr.press/v37/theis15.pdf)
+- [Logistic LDA](https://github.com/lucastheis/logistic_lda) - Tensorflow implementation of Discriminative Topic Modeling with Logistic LDA [:page_facing_up:](https://proceedings.neurips.cc/paper/2019/file/54ebdfbbfe6c31c39aaba9a1ee83860a-Paper.pdf)
 - [EnsTop](https://github.com/lmcinnes/enstop) - Python implementation of *ENS*emble *TOP*ic modelling with pLSA
 - [Dual-Sparse Topic Model](https://github.com/soberqian/TopicModel4J/blob/master/src/main/java/com/topic/model/DualSparseLDA.java) - implemented in TopicModel4J using collapsed variational Bayes inference [:page_facing_up:](https://dl.acm.org/doi/10.1145/2566486.2567980)
+- [Multi-Grain-LDA](https://github.com/bab2min/tomotopy) - MG-LDA implemented in tomotopy using collapsed Gibbs sampling [:page_facing_up:](https://dl.acm.org/doi/10.1145/1367497.1367513)
 - [lda++](https://github.com/angeloskath/supervised-lda) - C++ library for LDA and (fast) supervised LDA (sLDA/fsLDA) using variational inference [:page_facing_up:](https://dl.acm.org/doi/pdf/10.1145/2964284.2967237) [:page_facing_up:](http://www.cs.columbia.edu/~blei/papers/WangBleiFeiFei2009.pdf)
 - [discLDA](https://github.com/anthonylife/discLDA) - C++ implementation of discLDA based on GibbsLDA++ [:page_facing_up:](https://papers.nips.cc/paper/2008/file/7b13b2203029ed80337f27127a9f1d28-Paper.pdf)
 - [GuidedLDA](https://github.com/vi3k6i5/GuidedLDA) - Python implementation that can be guided by setting some seed words per topic (using Gibbs sampling) [:page_facing_up:](https://www.aclweb.org/anthology/E12-1021.pdf)
 - [seededLDA](https://github.com/koheiw/seededlda) - R package that implements seeded-LDA for semi-supervised topic modeling
 - [keyATM](https://github.com/keyATM/keyATM) - R package for Keyword Assisted Topic Models.
-- [BigTopicModel](https://github.com/thu-ml/BigTopicModel) - C++ engine for running large-scale topic models including LDA, DTM, MedLDA and RTM
 - [hca](https://github.com/wbuntine/topic-models) - C implementation of non-parametric topic models (HDP, HPYP-LDA, etc.) with focus on hyperparameter tuning
 - [BayesPA](https://github.com/strin/BayesPA) - Python interface for streaming implementation of MedLDA, maximum entropy discrimination LDA (max-margin supervised topic model) [:page_facing_up:](http://proceedings.mlr.press/v32/shi14.pdf)	
 - [sailing-pmls](https://pmls.readthedocs.io/en/latest/med-lda.html) - Parallel LDA and medLDA implementation
-- [BigTopicModel](https://github.com/thu-ml/BigTopicModel) - C++ engine for running large-scale MedLDA models [:page_facing_up:](https://dl.acm.org/doi/pdf/10.1145/2487575.2487658)
+- [BigTopicModel](https://github.com/thu-ml/BigTopicModel) - C++ engine for running large-scale MedLDA models [:page_facing_up:](https://dl.acm.org/doi/10.1145/2487575.2487658)
 - [DAPPER](https://github.com/robert-giaquinto/dapper) - Python implementation of Dynamic Author Persona (DAP) topic model [:page_facing_up:](https://arxiv.org/pdf/1811.01931.pdf)
+- [ToT](https://github.com/ahmaurya/topics_over_time) - Python implementation of Topics Over Time (A Non-Markov Continuous-Time Model of Topical Trends) [:page_facing_up:](https://dl.acm.org/doi/10.1145/1150402.1150450)
 - [MLTM](https://github.com/hsoleimani/MLTM) - C implementation of multilabel topic model (MLTM) [:page_facing_up:](https://www.mitpressjournals.org/doi/pdf/10.1162/NECO_a_00939)
 - [sequence-models](https://github.com/michaeljpaul/sequence-models) - Java implementation of block HMM and the mixed membership Markov model (M4)
 - [Entropy-Based Topic Modeling](https://github.com/julian-risch/JCDL2018/) - Java implementation of Entropy-Based Topic Modeling on Multiple Domain-Specific Text Collections
