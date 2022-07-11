@@ -79,9 +79,11 @@ There are huge differences in performance and scalability as well as the support
 - [LDADE](https://github.com/amritbhanu/LDADE-package) - Python tuning tool using differential evolution [:page_facing_up:](https://arxiv.org/pdf/1608.08176.pdf)
 - [ldatuning](https://github.com/nikita-moor/ldatuning) - R package to find optimal number of topics for LDA [:page_facing_up:](https://rpubs.com/siri/ldatuning)
 - [Scalable](https://www.tandfonline.com/doi/suppl/10.1080/10618600.2020.1741378) - Scalable Hyperparameter Selection for LDA [:page_facing_up:](https://www.tandfonline.com/doi/full/10.1080/10618600.2020.1741378)
-- [topic_interpretability](https://github.com/jhlau/topic_interpretability) - 
-- [topic-coherence-sensitivity](https://github.com/jhlau/topic-coherence-sensitivity) - 
-- [topic-model-diversity](https://github.com/silviatti/topic-model-diversity) - 
+
+#### Evaluation
+- [topic_interpretability](https://github.com/jhlau/topic_interpretability) - Computation of the semantic interpretability of topics produced by topic models [:page_facing_up:](https://aclanthology.org/E14-1056.pdf)
+- [topic-coherence-sensitivity](https://github.com/jhlau/topic-coherence-sensitivity) - Code to compute topic coherence for several topic cardinalities and aggregate scores across them [:page_facing_up:](https://aclanthology.org/N16-1057.pdf)
+- [topic-model-diversity](https://github.com/silviatti/topic-model-diversity) - A collection of topic diversity measures for topic modeling [:page_facing_up:](https://dl.acm.org/doi/abs/10.1007/978-3-030-80599-9_4)
 
 #### CPU-based high performance implementations
 - [LDA\*](https://github.com/Angel-ML/angel/blob/master/docs/algo/lda_on_angel_en.md) - Tencent's hybrid sampler that uses different samplers for different types of documents in combination with an asymmetric parameter server [:page_facing_up:](http://www.vldb.org/pvldb/vol10/p1406-yu.pdf)
